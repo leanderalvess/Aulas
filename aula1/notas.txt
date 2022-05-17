@@ -1,0 +1,10 @@
+
+//Tipos de variáveis:
+var n = 10;                                 //inteiro ou number
+var s = 'Aula 1';                           //string
+var ns = '10';                              //string
+var a = [];                                 //array ou lista
+var a [1, '2', '3', 4];                     //array de inteiros e strings
+var o = {};
+var o = {titulo: 'minha primeira aula'};    //objeto, composto por label e valor
+var o = {dia: '16/05/2022', array: a};
