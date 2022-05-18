@@ -43,7 +43,10 @@ $ npm i <nome-modulo>                   (instala abreviada, mas mesma coisa)
 
 $ npm audit                             Sempre rodar quando abrir
 $ npm update <nome-modulo>              Força atualização de pacotes da aplicacao
+$ npm audit fix --force 
 
+Para observar e monitorar as execuções do node: 
+$ npm i -g nodemon 
 ****************************************************************************************
 Git-Ignore (.gitignore): 
 Podemos ignorar: .thumbs, .DS, pasta 'node_modules', pasta 'dist' (angular), e etc...
