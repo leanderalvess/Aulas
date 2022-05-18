@@ -1,0 +1,69 @@
+Request & Response
+- Request são solicitações, o que é requerido. E o Response são as respostas e é o que iremos utilizar.
+
+****************************************************************************************
+Require(http)
+Para criar o server, utilizaremos o http.createserver que utilizará uma função de callback, com request and response. 
+
+Require(http)
+Utilizaremos o file system para leitura e execução de arquivos
+Com o file system, utilizaremos o 'readFile' que tem 2 parametros: ArquivoLeitura, Opcional
+    O opcional é para o callback, que será executado conforme o que arquivo for lido. 
+        No caso, de usar a função de callback, precisamos de dois parametros: 
+            -Possível erro
+            -Conteúdo da pag. 
+Então, o file system, ler o arquivo e armazena e o parametro de callback exibe o conteudo. 
+
+****************************************************************************************
+
+//semver.org (é uma semantica para versionamento para json package)
+//numero sem caracter(versao): extamente a ultima versão
+//~versao: aproximada
+//>=versao: igual ou maior que 
+//>versao: maior que
+//<=versao: igual ou menor que
+//<versao: menor que
+//^versao: compatível
+
+//Micro-FrontEnd = Microserviços {Seriam projetos menores que impactam menos o sistema} (ESTUDAR ISSO AQUI)
+//mono e multi repo
+// single SPA (framework)
+// feature Flag/ feature Toggle
+
+****************************************************************************************
+Comandos: 
+$ node -> 
+$ npm -> node package manager (npmjs.com)
+
+$ npm install <nome-modulo>
+$ npm install <nome-modulo> --save      (instala no módulo)
+$ npm install <nome-modulo> --save-dev  (instala nas dependencias do desenvolvimento)
+$ npm install <nome-modulo> -g          (instala global)
+$ npm i <nome-modulo>                   (instala abreviada, mas mesma coisa)
+
+$ npm audit                             Sempre rodar quando abrir
+$ npm update <nome-modulo>              Força atualização de pacotes da aplicacao
+
+****************************************************************************************
+Git-Ignore (.gitignore): 
+Podemos ignorar: .thumbs, .DS, pasta 'node_modules', pasta 'dist' (angular), e etc...
+
+.gitignore
+/dist
+/tmp
+/temp
+/node_modules
+/build
+/Thumbs.db
+.DS_Store
+
+****************************************************************************************
+Express é um MVC-ModelViewControler
+Model: MongoDB, Mongoose, Node.js               (Não é obrigatório, V&C são as camadas carregadas como front e back)
+Controller: Express, Node.js, Mongoose
+    Route: Express, Nodejs
+Browser(web): Angular, JS, HTML, CSS, Bootstrap
+
+Para criar a aplicacao express, executa: $ express nodeEventos  --view=ejs
+****************************************************************************************
+

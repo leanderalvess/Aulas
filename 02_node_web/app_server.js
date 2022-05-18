@@ -35,14 +35,3 @@ server.listen(3000,function(){
 });
 //Para porta aleatória 
 const port = process.env.port || 4000
-
-//semver.org (é uma semantica para versionamento para json package)
-//numero sem caracter(versao): extamente a ultima versão
-//~versao: aproximada
-//>=versao: igual ou maior que 
-//>versao: maior que
-//<=versao: igual ou menor que
-//<versao: menor que
-//^versao: compatível
-
-//Micro-FrontEnd = Microserviços {Seriam projetos menores que impactam menos o sistema} (ESTUDAR ISSO AQUI)
