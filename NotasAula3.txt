@@ -1,0 +1,15 @@
+Continuação da aula, seguindo o uso do express com tela de login 
+Iremos instalar um novo módulo para armazenar a sessão e salvar as infos para manter sessão.
+
+$ npm i express-session --save
+
+Para fazer a sessão funcionar, é necessário de dois módulos: 
+    - quebra a estrutura, para poder salvar por partes: body-parser
+        $ npm i body-parser --save
+    - salvar sessão, mas já vem com o express: cookie-parson
+        $ npm i cookie-parser --save
+
+******************************************************************************************
+
+Response.render != Response.redirect
+render só renderiza, enquando redirect redireciona a nova pag
