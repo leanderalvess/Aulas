@@ -1,15 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Poppins&display=swap');
 
-:root {
-    --menu-size: 250px;
-}
-
 * {
 	margin: 0;
 	padding: 0;
-	border: none;
 	box-sizing: border-box;
-	outline: none;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -23,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	text-align: center;
-	color: red;
+	color: purple;
 	font-size: 30px;
 }
 
@@ -35,39 +29,13 @@ body {
 	min-width: 300px;
 }
 
-header {
-    background-color: rgb(21, 22, 29);
-    padding: 10px;
-    text-align: center;
-}
-
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-#comeco {
-	width: 90%;
-	max-width: 400px;
-	min-width: 270px;
-	margin: 0 auto;
-	padding: 30px;
-}
-
-#titulo{
-    color: black; 
-    font-size: xx-large;
-}
-
 #inicio {
 	width: 90%;
 	max-width: 400px;
 	min-width: 270px;
 	margin: 0 auto;
 	padding: 30px;
-	border: 1px solid red;
+	border: 1px solid purple;
 	border-radius: 20px;
 }
 
@@ -78,7 +46,7 @@ header {
 .formulario div label {
 	width: 100%;
 	display: block;
-	color: red;
+	color: #450745;
 }
 
 .formulario div input {
@@ -89,7 +57,7 @@ header {
 	padding: 0 10px 0 30px;
 	height: 35px;
 	line-height: 35px;
-	border: 1px solid red;
+	border: 1px solid purple;
 	border-radius: 3px;
 	background-color: white;
 	background-repeat: no-repeat;
@@ -122,7 +90,7 @@ input:-webkit-autofill:active {
 	height: 35px;
 	line-height: 35px;
 	border: 0;
-	background-color: red;
+	background-color: purple;
 	color: white;
 	cursor: pointer;
 	border-radius: 5px;
@@ -130,44 +98,4 @@ input:-webkit-autofill:active {
 
 .formulario div button:hover {
 	background-color: #450745;
-}
-
-body {
-background-color: #fbfbfb;
-}
-@media (min-width: 991.98px) {
-main {
-	padding-left: 240px;
-}
-}
-
-/* Sidebar */
-.sidebar {
-position: fixed;
-top: 0;
-bottom: 0;
-left: 0;
-padding: 250px 0 0; /* Height of navbar */
-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-width: 240px;
-z-index: 600;
-}
-
-@media (max-width: 991.98px) {
-.sidebar {
-	width: 100%;
-}
-}
-.sidebar .active {
-border-radius: 5px;
-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-}
-
-.sidebar-sticky {
-position: relative;
-top: 0;
-height: calc(100vh - 48px);
-padding-top: 0.5rem;
-overflow-x: hidden;
-overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 }

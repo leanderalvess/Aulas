@@ -1,17 +1,3 @@
-<!--WORK FROM HOME: ela subirá isso pronto atarde, umas 15hrs.
-    Página inicio: criar html com formulário 
-        -form com action de uma rota '/login'
-        -método post
-        -uma classe de CSS para vcs customizarem
-        - Campos de formulário:
-            - nome tipo texto
-            - senha do tipo password
-            - botao do tipo submit
-    -> Arquivo CSS
-        - se quiser usar bootstrap, a vontade
-        - customizar um CSS simples/bonitinho pro formulario
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,9 +13,6 @@
 </head>
 
 <body>
-    <section id="comeco">
-        <h1 id="titulo">SISPREV WEB</h1>
-    </section>
 	<section id="inicio">
 		<h1>Gerenciamento de Eventos</h1>
 		<form action="/login"
@@ -41,15 +24,15 @@
 					   id="nomeLogin"
 					   required="required"
 					   autocomplete="name"
-                       name = "usuario[nome]" />
+					   name="usuario[nome]" />
 			</div>
 			<div>
 				<label for="senhaLogin">Senha</label>
 				<input type="password"
 					   id="senhaLogin"
 					   required="required"
-					   autocomplete="new-password" 
-                       name = "usuario[senha]" />
+					   autocomplete="new-password"
+					   name="usuario[senha]" />
 			</div>
 			<div>
 				<button type="submit">Login</button>
