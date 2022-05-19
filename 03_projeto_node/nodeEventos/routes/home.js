@@ -13,10 +13,8 @@ module.exports = function(app){
 
     app.get('/inicio', valida, eventoc.inicio); //valida vai validar se pode ir pra inicio ou não, anter de ir
     app.get('/cadastroEvento',valida, eventoc.cadastroEvento);
-    app.get('/cadastrarEvento',valida, eventoc.cadastrarEvento);
 
     app.get('/usuario',valida, usuarioc.usuario);
     app.get('/cadastroUsuario',valida, usuarioc.cadastroUsuario);
-    app.get('/cadastrarUsuario',valida, usuarioc.cadastrarUsuario);
     
 };

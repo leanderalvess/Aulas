@@ -7,9 +7,6 @@ module.exports = function(app){
         cadastroUsuario: function(request,response){
             var params = { usuarioSession: request.session.usuarioSession }
             response.render('usuario/cadastro', params);
-        },
-        cadastrarUsuario: function(request,response){
-            var usuario = request.body.usuario;
         }
     };
     //dunno nope

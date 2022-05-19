@@ -7,9 +7,6 @@ module.exports = function(app){
         cadastroEvento: function(request,response){
             var params = { usuarioSession: request.session.usuarioSession }
             response.render('eventos/cadastro', params);
-        },
-        cadastrarEvento: function(request,response){
-            var evento = request.body.evento;
         }
     };
     //dunno nope
