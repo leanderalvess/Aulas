@@ -34,5 +34,38 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <form action="/cadastrarUsuario"
+              method="post"
+              class="formulario">
+            <div>
+                <label for="nomeLogin">Nome</label>
+                <input type="text"
+                       id="nomeLogin"
+                       required="required"
+                       autocomplete="name"
+                       name="usuario[nome]" />
+            </div>
+            <div>
+                <label for="senhaLogin">Senha</label>
+                <input type="password"
+                       id="senhaLogin"
+                       required="required"
+                       autocomplete="new-password"
+                       name="usuario[senha]" />
+            </div>
+            <div>
+                <label for="confirmarSenhaLogin">Confirmar Senha</label>
+                <input type="password"
+                       id="confirmarSenhaLogin"
+                       required="required"
+                       autocomplete="new-password"
+                       name="usuario[confirmarSenha]" />
+            </div>
+            <div>
+                <button type="submit">Cadastrar Usuário</button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
